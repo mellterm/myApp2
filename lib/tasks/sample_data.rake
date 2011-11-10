@@ -1,11 +1,12 @@
 
-require 'populator'
+
 
 	namespace :db do
 		desc "Fill database with sample data"
 		task :populate => :environment do
 			Rake::Task['db:reset'].invoke
 			require 'faker'
+			require 'populator'
 			make_users
 			make_microposts
 		end	
