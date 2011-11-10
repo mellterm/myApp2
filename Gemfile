@@ -7,10 +7,10 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3', '1.3.3'
 
-gem "nifty-generators", :group => :development
+gem "nifty-generators"
 gem 'faker', '0.3.1'
 gem 'populator'
-gem 'will_paginate', '3.0.pre2', :group => :development
+gem 'will_paginate', '3.0.pre2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
